@@ -2,14 +2,14 @@
 
 A machine learning application that predicts the probability of a startup's success based on funding, rounds, and business category.
 
-## 📊 Features
+## Features
 
 - **Predictive Model**: Uses machine learning to predict startup success probability
 - **Data Visualization**: Visualizes prediction results and model comparisons
 - **Command-Line Interface**: Easy-to-use CLI for making predictions
 - **Docker Support**: Containerized application for easy deployment
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -44,7 +44,7 @@ A machine learning application that predicts the probability of a startup's succ
    docker build -t startup-success-predictor .
    ```
 
-## 💻 Usage
+## Usage
 
 ### Command Line Interface
 
@@ -95,7 +95,7 @@ The application generates two types of visualizations:
 
 Visualizations are saved to the `visualizations/` directory by default.
 
-## 🧠 Machine Learning Models
+## Machine Learning Models
 
 The application evaluates several machine learning models:
 
@@ -107,7 +107,7 @@ The application evaluates several machine learning models:
 
 The best-performing model is automatically selected and used for predictions.
 
-## 🐳 Docker Implementation
+## Docker Implementation
 
 The project includes a Dockerfile that:
 
@@ -140,7 +140,7 @@ startup-success/
 └── README.md              # Project documentation
 ```
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python**: Core programming language
 - **scikit-learn**: Machine learning models and preprocessing
@@ -148,11 +148,11 @@ startup-success/
 - **matplotlib**: Data visualization
 - **Docker**: Containerization
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
