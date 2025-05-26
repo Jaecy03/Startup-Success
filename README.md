@@ -86,7 +86,7 @@ Generate visualizations and save them to your local machine:
 docker run -v $(pwd)/output:/app/visualizations startup-success-predictor predict_cli.py --name "TechStartup" --funding 1000000 --rounds 2 --category "Software" --visualize
 ```
 
-## 📈 Visualization Examples
+## Visualization Examples
 
 The application generates two types of visualizations:
 
